@@ -20,18 +20,29 @@ title: Metodología
 
 ## 🎯 Núcleo común diferenciado
 
+<p class="muted" style="font-size:13px; margin-top:-8px;">Toca cada bloque para ver más detalle.</p>
+
 <div class="dual-route">
-  <div class="route-col plenary">
+  <div class="route-col plenary" data-expandable>
+    <span class="expand-toggle">+</span>
     <h4>🟢 Núcleo común — todos los estudiantes</h4>
-    <p>Rigor metodológico, ética de la investigación y consentimiento informado. Estándares internacionales de reporte (STROBE, COREQ/SRQR). Sesión plenaria integradora (sesión 6) con retroalimentación cruzada entre proyectos cuanti y cuali. Uso del <strong>Mixed Methods Appraisal Tool (MMAT)</strong> como herramienta única de apreciación crítica, aplicable a cualquier diseño — ver <a href="{{ '/herramientas/caja-herramientas.html' | relative_url }}">Caja de herramientas</a>.</p>
+    <p>Rigor metodológico, ética de la investigación y consentimiento informado. Estándares STROBE, COREQ/SRQR y MMAT.</p>
+    <span class="expand-hint">Toca para ver más</span>
+    <div class="cd-detail">Sesión plenaria integradora (sesión 6) con retroalimentación cruzada entre proyectos cuanti y cuali. El <strong>Mixed Methods Appraisal Tool (MMAT)</strong> es la herramienta única de apreciación crítica, aplicable a cualquier diseño — ver <a href="{{ '/herramientas/caja-herramientas.html' | relative_url }}">Caja de herramientas</a>.</div>
   </div>
-  <div class="route-col quant">
-    <h4>Ruta cuantitativa</h4>
-    <p>Técnicas de recolección, software y tipo de análisis alineados con el diseño metodológico real del trabajo de grado del estudiante.</p>
+  <div class="route-col quant" data-expandable>
+    <span class="expand-toggle">+</span>
+    <h4>📊 Ruta cuantitativa</h4>
+    <p>Técnicas de recolección, software y análisis alineados con el diseño metodológico real del trabajo de grado.</p>
+    <span class="expand-hint">Toca para ver más</span>
+    <div class="cd-detail">Instrumentos validados (CVI/COSMIN), análisis estadístico en SPSS/R/Jamovi y estándar de reporte STROBE — todo aplicado directamente sobre el propio proyecto de grado, no sobre ejercicios genéricos.</div>
   </div>
-  <div class="route-col qual">
-    <h4>Ruta cualitativa</h4>
-    <p>Técnicas de recolección, software y tipo de análisis alineados con el diseño metodológico real del trabajo de grado del estudiante.</p>
+  <div class="route-col qual" data-expandable>
+    <span class="expand-toggle">+</span>
+    <h4>🗣️ Ruta cualitativa</h4>
+    <p>Técnicas de recolección, software y análisis alineados con el diseño metodológico real del trabajo de grado.</p>
+    <span class="expand-hint">Toca para ver más</span>
+    <div class="cd-detail">Entrevistas/observación validadas (COREQ/CASP), codificación en Atlas.ti/NVivo y estándar de reporte COREQ/SRQR — todo aplicado directamente sobre el propio proyecto de grado, no sobre ejercicios genéricos.</div>
   </div>
 </div>
 
@@ -39,10 +50,4 @@ title: Metodología
 
 <div class="callout">
   Un estudiante con proyecto de <strong>metodología mixta</strong> trabaja en ambas rutas según el componente de su estudio, y es evaluado con los indicadores de ambas rutas en los criterios que correspondan a cada componente.
-</div>
-
-## 🧑‍🏫 Perfil del docente
-
-<div class="card">
-<p style="margin-bottom:0;">Profesional del área de la salud o ciencias humanas, con formación doctoral en Salud Pública o áreas afines, con experiencia investigativa de corte cualitativo o cuantitativo.</p>
 </div>

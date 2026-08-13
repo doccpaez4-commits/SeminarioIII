@@ -551,11 +551,11 @@ table.rubric tbody tr:nth-child(even) td:not(:first-child) { background: #fafbfc
 }
 
 /* Organizadores gráficos interactivos — nodos y lentes desplegables */
-.cd-node[data-expandable], .lens[data-expandable] {
+.cd-node[data-expandable], .lens[data-expandable], .route-col[data-expandable] {
   cursor: pointer; position: relative;
   transition: box-shadow .18s ease, transform .18s ease;
 }
-.cd-node[data-expandable]:hover, .lens[data-expandable]:hover {
+.cd-node[data-expandable]:hover, .lens[data-expandable]:hover, .route-col[data-expandable]:hover {
   transform: translateY(-3px); box-shadow: 0 6px 20px rgba(16,24,39,.14);
 }
 .expand-toggle {
@@ -563,18 +563,18 @@ table.rubric tbody tr:nth-child(even) td:not(:first-child) { background: #fafbfc
   background: var(--teal-100); color: var(--teal-700); font-size: 14px; font-weight: 800;
   display: flex; align-items: center; justify-content: center; transition: transform .25s ease, background .2s ease;
 }
-.cd-node.expanded .expand-toggle, .lens.expanded .expand-toggle {
+.cd-node.expanded .expand-toggle, .lens.expanded .expand-toggle, .route-col.expanded .expand-toggle {
   transform: rotate(45deg); background: var(--teal-500); color: #fff;
 }
 .cd-detail, .lens-detail {
   max-height: 0; overflow: hidden; text-align: left; font-size: 12px; color: var(--ink);
   line-height: 1.5; transition: max-height .3s ease, margin-top .3s ease, padding-top .3s ease;
 }
-.cd-node.expanded .cd-detail, .lens.expanded .lens-detail {
+.cd-node.expanded .cd-detail, .lens.expanded .lens-detail, .route-col.expanded .cd-detail {
   max-height: 260px; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border);
 }
 .expand-hint { display: block; font-size: 10.5px; color: var(--teal-700); font-weight: 700; margin-top: 8px; opacity: .8; }
-.cd-node.expanded .expand-hint, .lens.expanded .expand-hint { display: none; }
+.cd-node.expanded .expand-hint, .lens.expanded .expand-hint, .route-col.expanded .expand-hint { display: none; }
 
 /* Listas con icono — reemplaza viñetas planas */
 .icon-list { list-style: none; padding: 0; margin: 14px 0; display: flex; flex-direction: column; gap: 10px; }

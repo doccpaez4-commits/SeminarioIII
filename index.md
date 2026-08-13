@@ -11,7 +11,6 @@ title: Inicio
   <div class="stat-card"><div class="stat-icon">⏱</div><div class="stat-value">{{ site.data.curso.horas }} horas</div><div class="stat-label">3 créditos</div></div>
   <div class="stat-card"><div class="stat-icon">🗓</div><div class="stat-value">{{ site.data.curso.horario_general }}</div><div class="stat-label">Cada 15 días</div></div>
   <div class="stat-card"><div class="stat-icon">📍</div><div class="stat-value">{{ site.data.curso.salon }}</div><div class="stat-label">Presencial</div></div>
-  <div class="stat-card"><div class="stat-icon">👤</div><div class="stat-value">{{ site.data.curso.docente }}</div><div class="stat-label">Docente</div></div>
 </div>
 
 <p><a href="{{ '/contenidos.html' | relative_url }}">Ver la ruta completa de los 6 encuentros →</a></p>
@@ -56,7 +55,3 @@ El Seminario de Investigación III da continuidad a los seminarios I y II, donde
 <div class="callout">
   <strong>¿Todos deben aprender análisis cuantitativo y cualitativo?</strong> No al mismo nivel operativo. Obligar a un estudiante con proyecto cualitativo a ejecutar pruebas de inferencia estadística no aporta a su trabajo de grado. Lo que sí se espera de todos es <strong>literacidad crítica</strong> sobre el otro paradigma. Ver <a href="{{ '/metodologia.html' | relative_url }}">Metodología</a>.
 </div>
-
-## 🧑‍🏫 Perfil del docente
-
-Profesional del área de la salud o ciencias humanas, con formación doctoral en Salud Pública o áreas afines, con experiencia investigativa de corte cualitativo o cuantitativo.
