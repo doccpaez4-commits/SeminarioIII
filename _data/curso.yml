@@ -1,0 +1,38 @@
+periodo: "202680"
+nrc: "134"
+codigo: "INV00006"
+horas: "36"
+docente: "Carlos Duván Páez"
+salon: "Salón 406, Sede 101"
+horario_general: "Sábados, 7:45 a.m. – 12:30 p.m."
+sesiones:
+  - numero: 1
+    fecha: "22 de agosto de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
+  - numero: 2
+    fecha: "5 de septiembre de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
+  - numero: 3
+    fecha: "19 de septiembre de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
+  - numero: 4
+    fecha: "3 de octubre de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
+  - numero: 5
+    fecha: "17 de octubre de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
+  - numero: 6
+    fecha: "31 de octubre de 2026"
+    dia: "Sábado"
+    horario: "7:45 a.m. – 12:30 p.m."
+    salon: "Salón 406, Sede 101"
