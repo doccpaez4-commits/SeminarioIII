@@ -4,17 +4,76 @@ title: Caja de herramientas
 ---
 
 <h1>Caja de herramientas de validación</h1>
-<p class="lede">7 fichas interactivas — checklist marcable, barra de progreso y exportación individual a PDF</p>
+<p class="lede">Elija una herramienta en el menú — cada una abre en su propia pantalla, con checklist marcable, barra de progreso y exportación individual a PDF</p>
 
-<div class="callout">
-  Tres herramientas para la <strong>ruta cuantitativa</strong> (COSMIN, CVI/CVR, STROBE), tres para la <strong>ruta cualitativa</strong> (COREQ, CASP, SRQR), y una para el <strong>núcleo común</strong> (MMAT), que se usa por igual en las tres entregas, sea cual sea el tipo de proyecto. El progreso se guarda automáticamente en este navegador. Cada botón <strong>"Imprimir / exportar a PDF" exporta solo esa ficha</strong> (no las demás), siempre con su referencia bibliográfica completa al final — así cada exportación queda lista para anexarla a su trabajo de grado o a un artículo.
+<div id="tools-menu">
+
+  <div class="tool-menu-group tm-quant" id="menu-group-quant">
+    <button class="tool-menu-toggle" type="button" data-menu-toggle="quant">
+      <span class="tm-icon">📊</span>
+      <span class="tm-title">Herramientas cuantitativas</span>
+      <span class="tm-caret">▾</span>
+    </button>
+    <div class="tool-menu-panel" id="menu-panel-quant">
+      <p class="tool-menu-guide">Dos son para validar el instrumento <strong>antes</strong> de recolectar datos (COSMIN, CVI/CVR); STROBE es para reportar el estudio ya <strong>finalizado</strong>.</p>
+      <button class="tool-menu-item" type="button" data-open="cosmin">
+        <strong>COSMIN Checklist</strong>
+        <span class="tm-when">Escójala si está construyendo o adaptando un instrumento de medición y necesita evaluar su validez de contenido con jueces expertos y, si es posible, con un proceso Delphi iterativo. La más exigente de las dos herramientas de validación de contenido.</span>
+      </button>
+      <button class="tool-menu-item" type="button" data-open="cvi">
+        <strong>CVI / CVR</strong>
+        <span class="tm-when">Escójala para una validación de contenido más ágil: un panel de expertos califica cada ítem en una sola ronda. Útil cuando el tiempo o el número de jueces disponibles no permite el proceso Delphi completo de COSMIN.</span>
+      </button>
+      <button class="tool-menu-item" type="button" data-open="strobe">
+        <strong>STROBE</strong>
+        <span class="tm-when">Escójala cuando ya tenga resultados y esté redactando el informe final de un estudio observacional (cohorte, casos y controles o transversal). No valida instrumentos: verifica que el manuscrito reporte todo lo necesario.</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="tool-menu-group tm-qual" id="menu-group-qual">
+    <button class="tool-menu-toggle" type="button" data-menu-toggle="qual">
+      <span class="tm-icon">🗣️</span>
+      <span class="tm-title">Herramientas cualitativas</span>
+      <span class="tm-caret">▾</span>
+    </button>
+    <div class="tool-menu-panel" id="menu-panel-qual">
+      <p class="tool-menu-guide">COREQ y SRQR son estándares de reporte del informe final — se diferencian por la técnica de recolección. CASP se usa para apreciar el rigor del diseño y el análisis, en cualquier momento del proceso.</p>
+      <button class="tool-menu-item" type="button" data-open="coreq32">
+        <strong>COREQ (32 ítems)</strong>
+        <span class="tm-when">Escójala si su recolección de datos fue por entrevistas o grupos focales. Es el estándar más usado y el que suelen pedir las revistas como anexo cuando el estudio se basó en esas dos técnicas.</span>
+      </button>
+      <button class="tool-menu-item" type="button" data-open="casp">
+        <strong>CASP Qualitative Checklist</strong>
+        <span class="tm-when">Escójala para evaluar el rigor metodológico de un estudio cualitativo — el propio o uno ajeno — sin importar la técnica de recolección. También útil antes de tener resultados, para verificar que el diseño sea sólido.</span>
+      </button>
+      <button class="tool-menu-item" type="button" data-open="srqr">
+        <strong>SRQR (21 ítems)</strong>
+        <span class="tm-when">Escójala cuando su recolección NO fue (solo) por entrevistas o grupos focales — etnografía, teoría fundamentada, estudio de caso, fenomenología, análisis de documentos o imágenes — o si prefiere un estándar de reporte más amplio que COREQ.</span>
+      </button>
+    </div>
+  </div>
+
+  <button class="tool-menu-standalone" type="button" data-open="mmat">
+    <span>
+      <strong>🎯 MMAT — Mixed Methods Appraisal Tool</strong>
+      <span class="tm-when">Núcleo común: úsela sin importar el tipo de proyecto (cuantitativo, cualitativo o mixto). Autodiagnóstico obligatorio de la sesión 1 y apreciación crítica cruzada de la sesión 6.</span>
+    </span>
+    <span class="tm-caret">→</span>
+  </button>
+
+  <div class="callout" style="background:#eef6ff; border-color:#bfdbfe; margin-top:20px;">
+    <strong>ℹ️ COREQ vs. SRQR — ¿cuál usar?</strong> COREQ (Tong et al., 2007) se diseñó específicamente para estudios basados en <strong>entrevistas y grupos focales</strong>; no cubre por sí solo otros diseños cualitativos. Para etnografía, teoría fundamentada, estudio de caso, fenomenología, investigación narrativa u otras fuentes (observación, documentos, imágenes), use <strong>SRQR</strong>, que aplica a cualquier diseño cualitativo. No son excluyentes: un estudio de teoría fundamentada basado en entrevistas puede reportarse con ambas listas a la vez.
+  </div>
+
+  <p class="muted" style="font-size:12.5px; margin-top:14px;">El progreso de cada ficha se guarda automáticamente en este navegador. Cada botón "Imprimir / exportar a PDF" exporta solo esa ficha, con su referencia bibliográfica completa al final — lista para anexarla a su trabajo de grado o a un artículo.</p>
+
 </div>
 
-<div class="callout" style="background:#eef6ff; border-color:#bfdbfe;">
-  <strong>ℹ️ COREQ vs. SRQR — ¿cuál usar?</strong> COREQ (Tong et al., 2007) se diseñó específicamente para estudios basados en <strong>entrevistas y grupos focales</strong>; no cubre por sí solo otros diseños cualitativos. Para etnografía, teoría fundamentada, estudio de caso, fenomenología, investigación narrativa u otras fuentes (observación, documentos, imágenes), use <strong>SRQR</strong>, que aplica a cualquier diseño cualitativo. No son excluyentes: un estudio de teoría fundamentada basado en entrevistas puede reportarse con ambas listas a la vez.
-</div>
+<div id="tool-view" style="display:none;">
+  <button id="back-to-menu" type="button">← Volver al menú de herramientas</button>
 
-<div class="tool-card" data-tool="cosmin">
+<div class="tool-card tc-quant" data-tool="cosmin">
   <div class="tool-head">
     <h3>COSMIN Checklist</h3>
     <span class="tool-badge">Cuantitativa · Validación de contenido</span>
@@ -38,7 +97,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="cvi">
+<div class="tool-card tc-quant" data-tool="cvi">
   <div class="tool-head">
     <h3>Índice / Razón de Validez de Contenido (CVI / CVR)</h3>
     <span class="tool-badge">Cuantitativa · Juicio de expertos</span>
@@ -61,7 +120,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="strobe">
+<div class="tool-card tc-quant" data-tool="strobe">
   <div class="tool-head">
     <h3>STROBE (22 ítems)</h3>
     <span class="tool-badge">Cuantitativa · Reporte final (estudios observacionales)</span>
@@ -125,7 +184,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="coreq32">
+<div class="tool-card tc-qual" data-tool="coreq32">
   <div class="tool-head">
     <h3>COREQ (32 ítems)</h3>
     <span class="tool-badge">Cualitativa · Calidad del reporte (entrevistas y grupos focales)</span>
@@ -204,7 +263,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="casp">
+<div class="tool-card tc-qual" data-tool="casp">
   <div class="tool-head">
     <h3>CASP Qualitative Checklist</h3>
     <span class="tool-badge">Cualitativa · Rigor metodológico</span>
@@ -232,7 +291,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="srqr">
+<div class="tool-card tc-qual" data-tool="srqr">
   <div class="tool-head">
     <h3>SRQR (21 ítems)</h3>
     <span class="tool-badge">Cualitativa · Reporte final (cualquier diseño)</span>
@@ -294,7 +353,7 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card neutral" data-tool="mmat">
+<div class="tool-card tc-core" data-tool="mmat">
   <div class="tool-head">
     <h3>Mixed Methods Appraisal Tool (MMAT)</h3>
     <span class="tool-badge">Núcleo común · Todas las rutas</span>
@@ -374,9 +433,67 @@ title: Caja de herramientas
   </div>
 </div>
 
+</div><!-- /#tool-view -->
+
 <style>
+/* Menú central de selección — no estilo blog: se elige una herramienta y solo esa se muestra */
+.tool-menu-group { margin: 16px 0; }
+.tool-menu-toggle {
+  width: 100%; display: flex; align-items: center; gap: 12px;
+  border: none; border-radius: var(--radius); padding: 18px 22px; cursor: pointer;
+  font-size: 16px; font-weight: 800; text-align: left; box-shadow: var(--shadow); font-family: inherit;
+}
+.tool-menu-toggle .tm-title { flex: 1; }
+.tool-menu-toggle .tm-icon { font-size: 20px; }
+.tool-menu-toggle .tm-caret { font-size: 13px; transition: transform .2s ease; }
+.tool-menu-group.open .tool-menu-toggle .tm-caret { transform: rotate(180deg); }
+
+.tm-quant .tool-menu-toggle { background: #eef6ff; border: 1px solid #bfdcff; border-left: 6px solid #2563eb; color: #1d4ed8; }
+.tm-qual .tool-menu-toggle { background: #fdf2f8; border: 1px solid #fbcfe8; border-left: 6px solid #db2777; color: #be185d; }
+
+.tool-menu-panel { display: none; padding: 14px 6px 2px; }
+.tool-menu-group.open .tool-menu-panel { display: block; }
+.tool-menu-guide { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+
+.tool-menu-item {
+  display: block; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 12px 16px; margin-bottom: 10px; cursor: pointer; font-family: inherit;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.tool-menu-item:last-child { margin-bottom: 0; }
+.tool-menu-item:hover { box-shadow: 0 4px 14px rgba(16,24,39,.12); transform: translateY(-1px); }
+.tm-quant .tool-menu-item { border-left: 4px solid #2563eb; }
+.tm-qual .tool-menu-item { border-left: 4px solid #db2777; }
+.tool-menu-item strong { display: block; font-size: 14px; color: var(--navy-900); margin-bottom: 4px; }
+.tool-menu-item .tm-when { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+
+.tool-menu-standalone {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%;
+  background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 6px solid #16a34a; border-radius: var(--radius);
+  padding: 16px 22px; cursor: pointer; box-shadow: var(--shadow); margin: 18px 0; text-align: left; font-family: inherit;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.tool-menu-standalone:hover { box-shadow: 0 4px 14px rgba(16,24,39,.12); transform: translateY(-1px); }
+.tool-menu-standalone strong { display: block; color: #15803d; font-size: 15px; margin-bottom: 4px; }
+.tool-menu-standalone .tm-when { display: block; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+.tool-menu-standalone .tm-caret { font-size: 18px; color: #16a34a; flex-shrink: 0; }
+
+#back-to-menu {
+  border: 1px solid var(--border); background: var(--card); border-radius: 999px; padding: 9px 18px;
+  font-size: 13.5px; font-weight: 600; cursor: pointer; margin-bottom: 16px; font-family: inherit;
+}
+#back-to-menu:hover { background: #f1f5f9; }
+
+/* Color por tipo de herramienta, dentro de la vista de una sola ficha */
+.tool-card.tc-quant { border-left-color: #2563eb; }
+.tool-card.tc-quant .tool-badge { background: #dbeafe; color: #1d4ed8; }
+.tool-card.tc-qual { border-left-color: #db2777; }
+.tool-card.tc-qual .tool-badge { background: #fce7f3; color: #be185d; }
+.tool-card.tc-core { border-left-color: #16a34a; }
+.tool-card.tc-core .tool-badge { background: #dcfce7; color: #15803d; }
+
 @media print {
-  .tool-card.print-hide { display: none !important; }
+  #tools-menu, #back-to-menu { display: none !important; }
 }
 </style>
 
@@ -458,11 +575,55 @@ title: Caja de herramientas
     if (target) target.style.display = 'block';
   }
 
-  function clearPrintIsolation() {
-    cards.forEach(function (c) { c.classList.remove('print-hide'); });
+  // ---- Menú central: mostrar solo la herramienta elegida (no estilo blog) ----
+  var menuEl = document.getElementById('tools-menu');
+  var viewEl = document.getElementById('tool-view');
+  var backBtn = document.getElementById('back-to-menu');
+
+  function showMenuView() {
+    menuEl.style.display = '';
+    viewEl.style.display = 'none';
   }
 
-  window.addEventListener('afterprint', clearPrintIsolation);
+  function showToolView(tool) {
+    var target = document.querySelector('.tool-card[data-tool="' + tool + '"]');
+    if (!target) { showMenuView(); return; }
+    cards.forEach(function (c) { c.style.display = (c === target) ? '' : 'none'; });
+    menuEl.style.display = 'none';
+    viewEl.style.display = '';
+    window.scrollTo(0, 0);
+  }
+
+  function route() {
+    var tool = (window.location.hash || '').replace('#', '');
+    if (tool && document.querySelector('.tool-card[data-tool="' + tool + '"]')) {
+      showToolView(tool);
+    } else {
+      showMenuView();
+    }
+  }
+
+  document.querySelectorAll('[data-open]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      window.location.hash = btn.getAttribute('data-open');
+    });
+  });
+
+  document.querySelectorAll('[data-menu-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      btn.closest('.tool-menu-group').classList.toggle('open');
+    });
+  });
+
+  if (backBtn) {
+    backBtn.addEventListener('click', function () {
+      history.pushState('', document.title, window.location.pathname + window.location.search);
+      showMenuView();
+    });
+  }
+
+  window.addEventListener('hashchange', route);
+  route();
 
   cards.forEach(function (card) {
     loadTool(card);
@@ -484,10 +645,8 @@ title: Caja de herramientas
         var action = btn.getAttribute('data-action');
         if (action === 'save') { saveTool(card); btn.textContent = 'Guardado ✓'; setTimeout(function () { btn.textContent = 'Guardar'; }, 1500); }
         else if (action === 'print') {
-          // Exporta SOLO esta ficha: oculta temporalmente las demás durante la impresión.
-          cards.forEach(function (c) { if (c !== card) c.classList.add('print-hide'); });
+          // La vista de una sola ficha ya oculta las demás, así que esto exporta solo esta.
           window.print();
-          setTimeout(clearPrintIsolation, 1000);
         }
         else if (action === 'reset') { resetTool(card); }
       });
