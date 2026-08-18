@@ -4,10 +4,14 @@ title: Caja de herramientas
 ---
 
 <h1>Caja de herramientas de validación</h1>
-<p class="lede">5 fichas interactivas — checklist marcable, barra de progreso y exportación a PDF</p>
+<p class="lede">7 fichas interactivas — checklist marcable, barra de progreso y exportación individual a PDF</p>
 
 <div class="callout">
-  Dos herramientas para la <strong>ruta cuantitativa</strong> (COSMIN, CVI/CVR), dos para la <strong>ruta cualitativa</strong> (COREQ, CASP), y una para el <strong>núcleo común</strong> (MMAT), que se usa por igual en las tres entregas, sea cual sea el tipo de proyecto. El progreso se guarda automáticamente en este navegador; use "Exportar a PDF" (imprimir) para conservar una copia.
+  Tres herramientas para la <strong>ruta cuantitativa</strong> (COSMIN, CVI/CVR, STROBE), tres para la <strong>ruta cualitativa</strong> (COREQ, CASP, SRQR), y una para el <strong>núcleo común</strong> (MMAT), que se usa por igual en las tres entregas, sea cual sea el tipo de proyecto. El progreso se guarda automáticamente en este navegador. Cada botón <strong>"Imprimir / exportar a PDF" exporta solo esa ficha</strong> (no las demás), siempre con su referencia bibliográfica completa al final — así cada exportación queda lista para anexarla a su trabajo de grado o a un artículo.
+</div>
+
+<div class="callout" style="background:#eef6ff; border-color:#bfdbfe;">
+  <strong>ℹ️ COREQ vs. SRQR — ¿cuál usar?</strong> COREQ (Tong et al., 2007) se diseñó específicamente para estudios basados en <strong>entrevistas y grupos focales</strong>; no cubre por sí solo otros diseños cualitativos. Para etnografía, teoría fundamentada, estudio de caso, fenomenología, investigación narrativa u otras fuentes (observación, documentos, imágenes), use <strong>SRQR</strong>, que aplica a cualquier diseño cualitativo. No son excluyentes: un estudio de teoría fundamentada basado en entrevistas puede reportarse con ambas listas a la vez.
 </div>
 
 <div class="tool-card" data-tool="cosmin">
@@ -26,7 +30,7 @@ title: Caja de herramientas
     <li><label><input type="checkbox" id="cosmin-5"> Se aplicó también con una muestra de la población objetivo (no solo expertos).</label></li>
     <li><label><input type="checkbox" id="cosmin-6"> Se siguió un proceso tipo Delphi: rondas iterativas de valoración y ajuste del instrumento.</label></li>
   </ul>
-  <p class="tool-ref">Terwee, C. B., Prinsen, C. A. C., Chiarotto, A., et al. (2018). COSMIN methodology for evaluating the content validity of patient-reported outcome measures: a Delphi study. <em>Quality of Life Research, 27</em>(5), 1159-1170.</p>
+  <p class="tool-ref"><strong>Referencia:</strong> Terwee, C. B., Prinsen, C. A. C., Chiarotto, A., et al. (2018). COSMIN methodology for evaluating the content validity of patient-reported outcome measures: a Delphi study. <em>Quality of Life Research, 27</em>(5), 1159-1170.</p>
   <div class="tool-actions">
     <button class="btn-save" data-action="save">Guardar</button>
     <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
@@ -49,7 +53,7 @@ title: Caja de herramientas
     <li><label><input type="checkbox" id="cvi-4"> Se calculó el Índice de Validez de Contenido (CVI) global del instrumento.</label></li>
     <li><label><input type="checkbox" id="cvi-5"> Los ítems con CVR/CVI bajo el umbral aceptado fueron revisados o eliminados.</label></li>
   </ul>
-  <p class="tool-ref">Lawshe, C. H. (1975). A quantitative approach to content validity. <em>Personnel Psychology, 28</em>(4), 563-575. Actualización: Davis, L. L. (1992). Instrument review: getting the most from a panel of experts. <em>Applied Nursing Research, 5</em>(4), 194-197.</p>
+  <p class="tool-ref"><strong>Referencia:</strong> Lawshe, C. H. (1975). A quantitative approach to content validity. <em>Personnel Psychology, 28</em>(4), 563-575. Actualización: Davis, L. L. (1992). Instrument review: getting the most from a panel of experts. <em>Applied Nursing Research, 5</em>(4), 194-197.</p>
   <div class="tool-actions">
     <button class="btn-save" data-action="save">Guardar</button>
     <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
@@ -57,23 +61,142 @@ title: Caja de herramientas
   </div>
 </div>
 
-<div class="tool-card" data-tool="coreq">
+<div class="tool-card" data-tool="strobe">
   <div class="tool-head">
-    <h3>COREQ (32 ítems)</h3>
-    <span class="tool-badge">Cualitativa · Calidad del reporte</span>
+    <h3>STROBE (22 ítems)</h3>
+    <span class="tool-badge">Cuantitativa · Reporte final (estudios observacionales)</span>
   </div>
-  <p class="tool-desc">32 ítems agrupados en 3 dominios: equipo de investigación y reflexividad, diseño del estudio, y análisis y hallazgos. Útil también en el diseño, para anticipar qué debe documentarse.</p>
+  <p class="tool-desc">Checklist para reportar de forma completa y transparente estudios observacionales — cohortes, casos y controles y transversales. Útil desde el diseño (qué documentar) hasta la revisión final del manuscrito antes de someterlo a publicación.</p>
   <div class="tool-progress-wrap"><div class="tool-progress-bar"></div></div>
   <p class="tool-progress-label"><span class="tool-progress-count">0</span> de <span class="tool-progress-total">0</span> ítems marcados</p>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Título y resumen</h4>
   <ul class="tool-checklist">
-    <li><label><input type="checkbox" id="coreq-1"> Dominio 1 — Equipo de investigación y reflexividad: se documenta quién realizó la recolección y su relación previa con los participantes.</label></li>
-    <li><label><input type="checkbox" id="coreq-2"> Dominio 1 — Se documentan las características del investigador (formación, experiencia, supuestos) que pueden influir en la interpretación.</label></li>
-    <li><label><input type="checkbox" id="coreq-3"> Dominio 2 — Diseño del estudio: se describe el marco teórico y metodológico, el muestreo y el contexto de la recolección.</label></li>
-    <li><label><input type="checkbox" id="coreq-4"> Dominio 2 — Se describe el entorno de la recolección de datos (dónde, cuándo, presencia de terceros).</label></li>
-    <li><label><input type="checkbox" id="coreq-5"> Dominio 3 — Análisis y hallazgos: se documenta el número de codificadores, el proceso de codificación y la derivación de temas/categorías.</label></li>
-    <li><label><input type="checkbox" id="coreq-6"> Dominio 3 — Se documenta la saturación de datos y/o la triangulación, y se presentan citas de respaldo para los hallazgos.</label></li>
+    <li><label><input type="checkbox" id="strobe-1a"> 1a. Se indica el diseño del estudio con un término reconocido en el título o el resumen.</label></li>
+    <li><label><input type="checkbox" id="strobe-1b"> 1b. El resumen ofrece una síntesis informativa y equilibrada de qué se hizo y qué se encontró.</label></li>
   </ul>
-  <p class="tool-ref">Tong, A., Sainsbury, P., &amp; Craig, J. (2007). Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups. <em>International Journal for Quality in Health Care, 19</em>(6), 349-357.</p>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Introducción</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="strobe-2"> 2. Antecedentes/racionalidad: se explican los fundamentos científicos y la justificación de la investigación.</label></li>
+    <li><label><input type="checkbox" id="strobe-3"> 3. Objetivos: se exponen los objetivos específicos, incluidas las hipótesis preestablecidas.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Métodos</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="strobe-4"> 4. Diseño: se presentan los elementos clave del diseño del estudio al inicio del artículo.</label></li>
+    <li><label><input type="checkbox" id="strobe-5"> 5. Contexto: se describen el lugar, las fechas relevantes y los períodos de reclutamiento, exposición, seguimiento y recolección de datos.</label></li>
+    <li><label><input type="checkbox" id="strobe-6"> 6. Participantes: se describen los criterios de elegibilidad y las fuentes/métodos de selección de los participantes.</label></li>
+    <li><label><input type="checkbox" id="strobe-7"> 7. Variables: se definen con claridad los desenlaces, exposiciones, predictores, confusores y modificadores de efecto.</label></li>
+    <li><label><input type="checkbox" id="strobe-8"> 8. Fuentes de datos y medición: para cada variable de interés, se detallan las fuentes de datos y los métodos de medición/evaluación.</label></li>
+    <li><label><input type="checkbox" id="strobe-9"> 9. Sesgo: se describen los esfuerzos realizados para abordar posibles fuentes de sesgo.</label></li>
+    <li><label><input type="checkbox" id="strobe-10"> 10. Tamaño de la muestra: se explica cómo se determinó el tamaño muestral.</label></li>
+    <li><label><input type="checkbox" id="strobe-11"> 11. Variables cuantitativas: se explica cómo se manejaron en el análisis (agrupamiento, categorías).</label></li>
+    <li><label><input type="checkbox" id="strobe-12"> 12. Métodos estadísticos: se describen los métodos usados para controlar confusión, analizar subgrupos e interacciones, manejar datos faltantes/pérdidas de seguimiento, y los análisis de sensibilidad.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Resultados</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="strobe-13"> 13. Participantes: se reporta el número de sujetos en cada etapa del estudio y las razones de no participación.</label></li>
+    <li><label><input type="checkbox" id="strobe-14"> 14. Datos descriptivos: se reportan características de los participantes, exposiciones/confusores, y datos faltantes.</label></li>
+    <li><label><input type="checkbox" id="strobe-15"> 15. Datos de desenlace: se reporta el número de eventos de desenlace o las medidas resumen (según el diseño).</label></li>
+    <li><label><input type="checkbox" id="strobe-16"> 16. Resultados principales: se presentan estimaciones no ajustadas y ajustadas con sus intervalos de confianza, y se traduce a riesgo absoluto cuando es relevante.</label></li>
+    <li><label><input type="checkbox" id="strobe-17"> 17. Otros análisis: se reportan otros análisis realizados (subgrupos, interacciones, sensibilidad).</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Discusión</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="strobe-18"> 18. Resultados clave: se resumen los resultados clave en relación con los objetivos del estudio.</label></li>
+    <li><label><input type="checkbox" id="strobe-19"> 19. Limitaciones: se discuten las limitaciones y las fuentes de sesgo o imprecisión potenciales.</label></li>
+    <li><label><input type="checkbox" id="strobe-20"> 20. Interpretación: se ofrece una interpretación cautelosa considerando objetivos, limitaciones y evidencia relevante.</label></li>
+    <li><label><input type="checkbox" id="strobe-21"> 21. Generalización: se discute la validez externa (generalización) de los resultados.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Otra información</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="strobe-22"> 22. Financiamiento: se indica la fuente de financiamiento y el papel de los financiadores en el estudio.</label></li>
+  </ul>
+
+  <p class="tool-ref"><strong>Referencia:</strong> von Elm, E., Altman, D. G., Egger, M., Pocock, S. J., Gøtzsche, P. C., &amp; Vandenbroucke, J. P.; STROBE Initiative. (2007). The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. <em>The Lancet, 370</em>(9596), 1453-1457.</p>
+  <div class="tool-actions">
+    <button class="btn-save" data-action="save">Guardar</button>
+    <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
+    <button class="btn-reset" data-action="reset">Borrar</button>
+  </div>
+</div>
+
+<div class="tool-card" data-tool="coreq32">
+  <div class="tool-head">
+    <h3>COREQ (32 ítems)</h3>
+    <span class="tool-badge">Cualitativa · Calidad del reporte (entrevistas y grupos focales)</span>
+  </div>
+  <p class="tool-desc">Checklist completo de 32 ítems agrupados en 3 dominios: equipo de investigación y reflexividad, diseño del estudio, y análisis y hallazgos. Diseñado específicamente para estudios basados en entrevistas y grupos focales — útil también en el diseño, para anticipar qué debe documentarse.</p>
+  <div class="tool-progress-wrap"><div class="tool-progress-bar"></div></div>
+  <p class="tool-progress-label"><span class="tool-progress-count">0</span> de <span class="tool-progress-total">0</span> ítems marcados</p>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Dominio 1 — Equipo de investigación y reflexividad</h4>
+  <p class="tool-desc" style="margin:0 0 6px;">Características personales</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-1"> 1. Entrevistador/facilitador: se identifica qué autor(es) realizaron la entrevista o el grupo focal.</label></li>
+    <li><label><input type="checkbox" id="coreq-2"> 2. Credenciales: se reportan las credenciales del investigador (ej. PhD, MD, Mg).</label></li>
+    <li><label><input type="checkbox" id="coreq-3"> 3. Ocupación: se reporta la ocupación del investigador al momento del estudio.</label></li>
+    <li><label><input type="checkbox" id="coreq-4"> 4. Género: se reporta el género del investigador.</label></li>
+    <li><label><input type="checkbox" id="coreq-5"> 5. Experiencia y formación: se describe la experiencia o formación del investigador en investigación cualitativa.</label></li>
+  </ul>
+  <p class="tool-desc" style="margin:10px 0 6px;">Relación con los participantes</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-6"> 6. Relación previa: se indica si existía una relación previa entre investigador y participantes antes de iniciar el estudio.</label></li>
+    <li><label><input type="checkbox" id="coreq-7"> 7. Conocimiento del participante sobre el investigador: se reporta qué sabían los participantes del investigador (ej. motivos personales para el estudio).</label></li>
+    <li><label><input type="checkbox" id="coreq-8"> 8. Características del entrevistador: se reportan características que pudieron influir en la entrevista (ej. supuestos, intereses).</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Dominio 2 — Diseño del estudio</h4>
+  <p class="tool-desc" style="margin:0 0 6px;">Marco teórico</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-9"> 9. Orientación metodológica y teoría: se declara la orientación que sustenta el estudio (ej. teoría fundamentada, análisis temático, etnografía, fenomenología).</label></li>
+  </ul>
+  <p class="tool-desc" style="margin:10px 0 6px;">Selección de participantes</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-10"> 10. Muestreo: se describe cómo se seleccionaron los participantes (propósito, conveniencia, consecutivo, bola de nieve).</label></li>
+    <li><label><input type="checkbox" id="coreq-11"> 11. Método de contacto: se describe cómo se abordó a los participantes (cara a cara, teléfono, correo).</label></li>
+    <li><label><input type="checkbox" id="coreq-12"> 12. Tamaño de la muestra: se reporta cuántos participantes hicieron parte del estudio.</label></li>
+    <li><label><input type="checkbox" id="coreq-13"> 13. No participación: se reporta cuántas personas se negaron a participar o abandonaron, y por qué (si se conoce).</label></li>
+  </ul>
+  <p class="tool-desc" style="margin:10px 0 6px;">Contexto</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-14"> 14. Escenario de la recolección: se reporta dónde se recolectaron los datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-15"> 15. Presencia de no participantes: se reporta si alguien más, además de participantes e investigadores, estuvo presente.</label></li>
+    <li><label><input type="checkbox" id="coreq-16"> 16. Descripción de la muestra: se reportan las características relevantes de la muestra (demográficas, clínicas).</label></li>
+  </ul>
+  <p class="tool-desc" style="margin:10px 0 6px;">Recolección de datos</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-17"> 17. Guía de entrevista: se indica si hubo preguntas, sondeos o guías, y si se pilotearon.</label></li>
+    <li><label><input type="checkbox" id="coreq-18"> 18. Entrevistas repetidas: se indica si se realizaron entrevistas repetidas y cuántas.</label></li>
+    <li><label><input type="checkbox" id="coreq-19"> 19. Grabación audio/video: se indica si se usó grabación de audio o video para recolectar los datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-20"> 20. Notas de campo: se indica si se tomaron notas de campo durante y/o después de la entrevista o grupo focal.</label></li>
+    <li><label><input type="checkbox" id="coreq-21"> 21. Duración: se reporta la duración de las entrevistas o grupos focales.</label></li>
+    <li><label><input type="checkbox" id="coreq-22"> 22. Saturación de datos: se discute si se alcanzó la saturación de datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-23"> 23. Devolución de transcripciones: se indica si las transcripciones fueron devueltas a los participantes para comentarios o correcciones.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Dominio 3 — Análisis y hallazgos</h4>
+  <p class="tool-desc" style="margin:0 0 6px;">Análisis de los datos</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-24"> 24. Número de codificadores: se reporta cuántas personas codificaron los datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-25"> 25. Descripción del árbol de códigos: se describe el árbol de codificación o los códigos utilizados.</label></li>
+    <li><label><input type="checkbox" id="coreq-26"> 26. Derivación de temas: se indica si los temas se identificaron a priori o se derivaron de los datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-27"> 27. Software: se reporta qué software, si aplica, se usó para gestionar los datos.</label></li>
+    <li><label><input type="checkbox" id="coreq-28"> 28. Verificación por los participantes: se indica si los participantes dieron retroalimentación sobre los hallazgos (member checking).</label></li>
+  </ul>
+  <p class="tool-desc" style="margin:10px 0 6px;">Reporte</p>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="coreq-29"> 29. Citas presentadas: se presentan citas textuales de los participantes que ilustran los temas/hallazgos.</label></li>
+    <li><label><input type="checkbox" id="coreq-30"> 30. Coherencia entre datos y hallazgos: hay coherencia entre los datos presentados y los hallazgos reportados.</label></li>
+    <li><label><input type="checkbox" id="coreq-31"> 31. Claridad de los temas principales: los temas principales se presentan con claridad en los hallazgos.</label></li>
+    <li><label><input type="checkbox" id="coreq-32"> 32. Claridad de los temas secundarios: se describen casos diversos o se discuten los temas/casos minoritarios.</label></li>
+  </ul>
+
+  <p class="tool-ref"><strong>Referencia:</strong> Tong, A., Sainsbury, P., &amp; Craig, J. (2007). Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups. <em>International Journal for Quality in Health Care, 19</em>(6), 349-357.</p>
   <div class="tool-actions">
     <button class="btn-save" data-action="save">Guardar</button>
     <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
@@ -101,7 +224,69 @@ title: Caja de herramientas
     <li><label><input type="checkbox" id="casp-9"> ¿Hay una declaración clara de los hallazgos?</label></li>
     <li><label><input type="checkbox" id="casp-10"> ¿Qué tan valiosa es la investigación para el campo de la salud pública?</label></li>
   </ul>
-  <p class="tool-ref">Critical Appraisal Skills Programme (CASP). (2018). CASP Qualitative Studies Checklist. Oxford: CASP UK.</p>
+  <p class="tool-ref"><strong>Referencia:</strong> Critical Appraisal Skills Programme (CASP). (2018). CASP Qualitative Studies Checklist. Oxford: CASP UK.</p>
+  <div class="tool-actions">
+    <button class="btn-save" data-action="save">Guardar</button>
+    <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
+    <button class="btn-reset" data-action="reset">Borrar</button>
+  </div>
+</div>
+
+<div class="tool-card" data-tool="srqr">
+  <div class="tool-head">
+    <h3>SRQR (21 ítems)</h3>
+    <span class="tool-badge">Cualitativa · Reporte final (cualquier diseño)</span>
+  </div>
+  <p class="tool-desc">Checklist para reportar de forma completa y transparente cualquier diseño de investigación cualitativa — no solo entrevistas y grupos focales, a diferencia de COREQ. Cubre etnografía, teoría fundamentada, estudio de caso, fenomenología, investigación narrativa y otras fuentes.</p>
+  <div class="tool-progress-wrap"><div class="tool-progress-bar"></div></div>
+  <p class="tool-progress-label"><span class="tool-progress-count">0</span> de <span class="tool-progress-total">0</span> ítems marcados</p>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Título y resumen</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-1"> S1. Título: describe de forma concisa el estudio como cualitativo, indicando el enfoque (ej. etnografía, teoría fundamentada) o los métodos de recolección (entrevistas, grupos focales).</label></li>
+    <li><label><input type="checkbox" id="srqr-2"> S2. Resumen: sintetiza antecedentes, propósito, métodos, resultados y conclusiones, según el formato de la revista.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Introducción</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-3"> S3. Formulación del problema: se describe y fundamenta el problema/fenómeno estudiado, con revisión de teoría y evidencia empírica relevante.</label></li>
+    <li><label><input type="checkbox" id="srqr-4"> S4. Propósito o pregunta de investigación: se enuncia el propósito del estudio y los objetivos específicos o preguntas de investigación.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Métodos</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-5"> S5. Enfoque cualitativo y paradigma: se identifica el enfoque, la teoría que lo guía y el paradigma de investigación, con su justificación.</label></li>
+    <li><label><input type="checkbox" id="srqr-6"> S6. Características del investigador y reflexividad: se documentan atributos, calificaciones, relación con participantes, supuestos, e influencia potencial en el estudio.</label></li>
+    <li><label><input type="checkbox" id="srqr-7"> S7. Contexto: se describe el sitio y los factores contextuales relevantes, con justificación de su selección.</label></li>
+    <li><label><input type="checkbox" id="srqr-8"> S8. Estrategia de muestreo: se explica cómo y por qué se seleccionaron participantes, documentos o eventos, incluidos los criterios de saturación.</label></li>
+    <li><label><input type="checkbox" id="srqr-9"> S9. Cuestiones éticas: se documenta la aprobación del comité de ética y el consentimiento de los participantes, o se explica su ausencia.</label></li>
+    <li><label><input type="checkbox" id="srqr-10"> S10. Métodos de recolección de datos: se detallan tipos de datos, procedimientos (fechas, proceso iterativo, triangulación) y ajustes según hallazgos.</label></li>
+    <li><label><input type="checkbox" id="srqr-11"> S11. Instrumentos y tecnologías: se describen guías, cuestionarios y dispositivos de grabación, y los cambios realizados durante el estudio.</label></li>
+    <li><label><input type="checkbox" id="srqr-12"> S12. Unidades de estudio: se reporta el número y las características relevantes de participantes, documentos o eventos, y su nivel de participación.</label></li>
+    <li><label><input type="checkbox" id="srqr-13"> S13. Procesamiento de los datos: se describen transcripción, captura y gestión de datos, verificación de integridad, codificación y anonimización.</label></li>
+    <li><label><input type="checkbox" id="srqr-14"> S14. Análisis de los datos: se describe el proceso para identificar patrones/temas, quiénes participaron y el referente teórico-metodológico, con su justificación.</label></li>
+    <li><label><input type="checkbox" id="srqr-15"> S15. Técnicas para mejorar la credibilidad: se describen estrategias (member checking, pista de auditoría, triangulación), con su justificación.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Resultados / hallazgos</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-16"> S16. Síntesis e interpretación: se presentan los hallazgos principales y su integración con la investigación previa o el desarrollo de teoría/modelo.</label></li>
+    <li><label><input type="checkbox" id="srqr-17"> S17. Vínculo con los datos empíricos: los hallazgos se sustentan con evidencia (citas, notas de campo, extractos, fotografías).</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Discusión</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-18"> S18. Integración con el conocimiento previo: se conectan los hallazgos con la literatura existente y se discute su aplicabilidad/transferibilidad y contribución disciplinar.</label></li>
+    <li><label><input type="checkbox" id="srqr-19"> S19. Limitaciones: se discuten la confiabilidad y las limitaciones de los hallazgos del estudio.</label></li>
+  </ul>
+
+  <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Otros</h4>
+  <ul class="tool-checklist">
+    <li><label><input type="checkbox" id="srqr-20"> S20. Conflictos de interés: se reportan fuentes potenciales de influencia sobre la conducción y las conclusiones, y cómo se gestionaron.</label></li>
+    <li><label><input type="checkbox" id="srqr-21"> S21. Financiamiento: se indican las fuentes de financiamiento y apoyo, y el papel de los financiadores.</label></li>
+  </ul>
+
+  <p class="tool-ref"><strong>Referencia:</strong> O'Brien, B. C., Harris, I. B., Beckman, T. J., Reed, D. A., &amp; Cook, D. A. (2014). Standards for reporting qualitative research: a synthesis of recommendations. <em>Academic Medicine, 89</em>(9), 1245-1251.</p>
   <div class="tool-actions">
     <button class="btn-save" data-action="save">Guardar</button>
     <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
@@ -114,7 +299,7 @@ title: Caja de herramientas
     <h3>Mixed Methods Appraisal Tool (MMAT)</h3>
     <span class="tool-badge">Núcleo común · Todas las rutas</span>
   </div>
-  <p class="tool-desc">A diferencia de las cuatro anteriores, esta herramienta no se elige según el tipo de proyecto: la usan por igual estudiantes cuantitativos, cualitativos y mixtos. Es la ficha ancla de la sesión 1 (autodiagnóstico) y de la sesión 6 (apreciación crítica cruzada entre compañeros de distinto paradigma).</p>
+  <p class="tool-desc">A diferencia de las seis anteriores, esta herramienta no se elige según el tipo de proyecto: la usan por igual estudiantes cuantitativos, cualitativos y mixtos. Es la ficha ancla de la sesión 1 (autodiagnóstico) y de la sesión 6 (apreciación crítica cruzada entre compañeros de distinto paradigma).</p>
 
   <h4 style="margin:16px 0 6px; font-size:14px; color:var(--navy-900);">Preguntas de tamizaje (todas las categorías)</h4>
   <div class="tool-progress-wrap"><div class="tool-progress-bar"></div></div>
@@ -181,13 +366,19 @@ title: Caja de herramientas
     </ul>
   </div>
 
-  <p class="tool-ref">Hong, Q. N., Fàbregues, S., Bartlett, G., Boardman, F., Cargo, M., Dagenais, P., Gagnon, M. P., Griffiths, F., Nicolau, B., O'Cathain, A., Rousseau, M. C., &amp; Vedel, I. (2018). The Mixed Methods Appraisal Tool (MMAT) version 2018 for information professionals and researchers. <em>Education for Information, 34</em>(4), 285-291.</p>
+  <p class="tool-ref"><strong>Referencia:</strong> Hong, Q. N., Fàbregues, S., Bartlett, G., Boardman, F., Cargo, M., Dagenais, P., Gagnon, M. P., Griffiths, F., Nicolau, B., O'Cathain, A., Rousseau, M. C., &amp; Vedel, I. (2018). The Mixed Methods Appraisal Tool (MMAT) version 2018 for information professionals and researchers. <em>Education for Information, 34</em>(4), 285-291.</p>
   <div class="tool-actions">
     <button class="btn-save" data-action="save">Guardar</button>
     <button class="btn-print" data-action="print">Imprimir / exportar a PDF</button>
     <button class="btn-reset" data-action="reset">Borrar</button>
   </div>
 </div>
+
+<style>
+@media print {
+  .tool-card.print-hide { display: none !important; }
+}
+</style>
 
 <script>
 (function () {
@@ -267,6 +458,12 @@ title: Caja de herramientas
     if (target) target.style.display = 'block';
   }
 
+  function clearPrintIsolation() {
+    cards.forEach(function (c) { c.classList.remove('print-hide'); });
+  }
+
+  window.addEventListener('afterprint', clearPrintIsolation);
+
   cards.forEach(function (card) {
     loadTool(card);
 
@@ -286,7 +483,12 @@ title: Caja de herramientas
       btn.addEventListener('click', function () {
         var action = btn.getAttribute('data-action');
         if (action === 'save') { saveTool(card); btn.textContent = 'Guardado ✓'; setTimeout(function () { btn.textContent = 'Guardar'; }, 1500); }
-        else if (action === 'print') { window.print(); }
+        else if (action === 'print') {
+          // Exporta SOLO esta ficha: oculta temporalmente las demás durante la impresión.
+          cards.forEach(function (c) { if (c !== card) c.classList.add('print-hide'); });
+          window.print();
+          setTimeout(clearPrintIsolation, 1000);
+        }
         else if (action === 'reset') { resetTool(card); }
       });
     });
