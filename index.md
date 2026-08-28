@@ -41,6 +41,10 @@ title: Inicio
 
 <p class="muted" style="font-size:13.5px;">El núcleo común —ética, estándares de reporte (STROBE, COREQ/SRQR) y la herramienta MMAT— garantiza que todos alcancen literacidad crítica sobre el otro enfoque.</p>
 
+<div class="callout" style="background:#fef2f2; border-color:#fecaca; border-left-color:#dc2626;">
+  <strong>🤖 ¿Vas a usar IA en tu proyecto de grado?</strong> Todo uso de IA generativa (redacción, traducción, apoyo en codificación o análisis) debe declararse y citarse según los estándares internacionales vigentes (ICMJE, COPE, WAME, APA). Ver <a href="{{ '/etica-ia.html' | relative_url }}">Uso Ético de la IA</a> antes de entregar cualquier avance.
+</div>
+
 ## 📖 Presentación
 
 El Seminario de Investigación III da continuidad a los seminarios I y II, donde el estudiante definió su tema, pregunta y diseño metodológico. Ahora el foco es <strong>ejecutar</strong>: recolectar información, ordenarla y analizarla con estándares internacionales, e interpretar los resultados para construir hallazgos que expliquen y contextualicen el problema abordado. Los entregables son los avances reales del propio producto de investigación.

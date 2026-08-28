@@ -10,6 +10,10 @@ title: Entregas
   Las tres entregas no son ejercicios aparte: son <strong>avances reales del producto de investigación</strong> que cada estudiante ya viene desarrollando en su opción de grado. Cada entrega retoma el trabajo de la anterior y avanza una etapa: <strong>diseñar y validar</strong> (Entrega 1) → <strong>procesar y analizar</strong> (Entrega 2) → <strong>interpretar y construir hallazgos</strong> (Entrega 3). Un estudiante de metodología mixta trabaja y es evaluado en ambas rutas, según el componente de su estudio.
 </div>
 
+<div class="callout" style="background:#fef2f2; border-color:#fecaca; border-left-color:#dc2626;">
+  <strong>🤖 Uso de IA en las entregas:</strong> si usaste IA generativa en cualquier parte de este proceso (redacción, traducción, apoyo en codificación cualitativa, generación de sintaxis estadística, etc.), debes declararlo explícitamente en la entrega correspondiente, siguiendo los estándares internacionales (ICMJE, COPE, WAME, APA). Ver <a href="{{ '/etica-ia.html' | relative_url }}">Uso Ético de la IA</a> — incluye textos-modelo listos para adaptar.
+</div>
+
 <div class="rubric-activity">
 <h2>Entrega 1 · Diseño y validación del instrumento de recolección</h2>
 <p><strong>Corte 1 — 30% · Se presenta al cierre de la sesión 3</strong></p>

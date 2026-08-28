@@ -12,7 +12,7 @@ title: Bibliografía
     <li>Dunivin, Z. O. (2025). Scaling hermeneutics: a guide to qualitative coding with LLMs for reflexive content analysis. <em>EPJ Data Science, 14</em>, 28. <a href="https://doi.org/10.1140/epjds/s13688-025-00548-8" target="_blank" rel="noopener">doi.org/10.1140/epjds/s13688-025-00548-8</a></li>
     <li>Tovin, M. M., &amp; Wormley, M. E. (2023). Systematic development of standards for mixed methods reporting in rehabilitation health sciences research. <em>Physical Therapy, 103</em>(11), pzad084. <a href="https://doi.org/10.1093/ptj/pzad084" target="_blank" rel="noopener">doi.org/10.1093/ptj/pzad084</a></li>
   </ol>
-  <p style="margin-bottom:0; font-size:14px;">La primera es pertinente para la ruta cualitativa (codificación asistida por IA en la Entrega 2). La segunda aporta un estándar reciente para reportar estudios de metodología mixta — relevante para estudiantes con proyecto mixto en la Entrega 3.</p>
+  <p style="margin-bottom:0; font-size:14px;">La primera es pertinente para la ruta cualitativa (codificación asistida por IA en la Entrega 2). La segunda aporta un estándar reciente para reportar estudios de metodología mixta — relevante para estudiantes con proyecto mixto en la Entrega 3. Si usas IA generativa para apoyar la codificación (como en Dunivin, 2025), recuerda declararlo: ver <a href="{{ '/etica-ia.html' | relative_url }}">Uso Ético de la IA</a>.</p>
 </div>
 
 ## Bibliografía Área Andina

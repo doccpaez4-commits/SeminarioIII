@@ -53,6 +53,7 @@ title: Evaluación
   <dt>Indicador diferenciado (Cuant./Cual.):</dt> <dd>cada criterio se describe con un indicador propio de cada ruta, para calificar con el mismo rasero de exigencia proyectos cuantitativos y cualitativos.</dd>
   <dt>Nivel de complejidad estructural, no lista de tareas:</dt> <dd>las rúbricas SOLO valoran cómo se integra y conecta el trabajo con la pregunta de investigación, no si se "cumplieron" pasos aislados.</dd>
   <dt>Proyecto de metodología mixta:</dt> <dd>se evalúa con los indicadores de ambas rutas en los criterios que correspondan a cada componente de su estudio.</dd>
+  <dt>Declaración ética del uso de IA:</dt> <dd>si se usó IA generativa en cualquier parte de la entrega, debe estar declarada y citada según ICMJE/COPE/WAME/APA (ver <a href="{{ '/etica-ia.html' | relative_url }}">Uso Ético de la IA</a>); el uso no declarado se trata como falta a la integridad académica, no como un simple descuento de nota.</dd>
 </dl>
 </div>
 
